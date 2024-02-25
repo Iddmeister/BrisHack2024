@@ -1,14 +1,12 @@
-"""
-My first application
-"""
 import toga
 from toga.style import Pack
 from toga.style.pack import COLUMN, ROW
-import cv2
 import asyncio
 import time
 
 from PIL import Image
+
+import cv2
 
 class BrisHack2024(toga.App):
 

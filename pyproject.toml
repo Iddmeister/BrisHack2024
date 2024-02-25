@@ -22,6 +22,9 @@ test_sources = [
 ]
 
 requires = [
+    "opencv-contrib-python",
+    "numpy",
+    "pillow",
 ]
 test_requires = [    "pytest",]
 
